@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/e4/7d/80/e47d800bb77c22e58a7d6dd8eda2e517.jpg");
+  background-size: cover;
+  overflow: overlay;
+}
+
+.container {
+  background-image: url("https://www.wallpapertip.com/wmimgs/84-840431_aesthetic-background-wood-lights.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+  margin: 0% 10%;
+  /* border: 10px solid #ddaf96; */
+  padding: 2%;
+  border-radius: 20px;
+  -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.books-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.books {
+  height: 200px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shelf {
+  margin: auto;
+  height: 10px;
+  width: 85%;
+  background-color: #ddaf96;
+  border-radius: 18px;
+}
+
+@media (max-width: 600px) {
+  .books {
+    height: 100px;
+    width: 75px;
+  }
+  .shelf {
+    width: 95%;
+  }
+  .container {
+    margin-top: 5%;
+    border-radius: 20px;
+  }
+  header {
+    flex-direction: column-reverse;
+  }
+  header img {
+    width: 150px;
+    margin: 10px;
+  }
+}
+
+#logo {
+  width: 40px;
+  border-radius: 50px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #ffffff00; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777473; 
+  border-radius: 10px;
+  width: 5px;
+}
